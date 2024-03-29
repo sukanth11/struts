@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//Apache Struts//XWork Validator 1.0//EN" "http://struts.apache.org/dtds/xwork-validator-1.0.dtd">
+<validators>
+	<field name="student.name">
+		<field-validator type="requiredstring">
+			<message>Name is required</message>
+		</field-validator>
+	</field>
+	<field name="student.city">
+		<field-validator type="requiredstring">
+			<message>city is required</message>
+		</field-validator>
+	</field>
+	<field name="student.age">
+		<field-validator type="int">
+			<param name="min">20</param>
+			<param name="max">50</param>
+			<message>Age should be between 20 and 70</message>
+		</field-validator>
+	</field>
+	<field name="student.stipend">
+		<field-validator type="double">
+			<param name="minInclusive">5000.1</param>
+			<param name="maxInclusive">100000.1</param>
+			<message>stipend must be between 5000 and 100000</message>
+		</field-validator>
+	</field>
+	<field name="student.course">
+		<field-validator type="requiredstring">
+			<message>course is required</message>
+		</field-validator>
+	</field>
+	<field name="student.gender">
+		<field-validator type="requiredstring">
+			<message>gender is required</message>
+		</field-validator>
+	</field>
+	<field name="student.email">
+		<field-validator type="requiredstring">
+			<message>email is required</message>
+		</field-validator>
+	</field>
+	<field name="student.email">
+		<field-validator type="requiredstring">
+			<message>email is not valid</message>
+		</field-validator>
+	</field>
+	<field name="student.email">
+		<field-validator type="requiredstring">
+			<message>email is not valid</message>
+		</field-validator>
+	</field>
+
+</validators>

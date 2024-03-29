@@ -1,0 +1,11 @@
+package com.studentapp.model;
+
+public class Student {
+	
+	private String studentName;
+	private int studentId;
+	private String department;
+	private String city;
+	
+
+}

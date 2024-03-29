@@ -1,0 +1,13 @@
+package com.struts.model;
+
+import javax.swing.Spring;
+
+public class Student {
+	
+	private Spring name;
+	private Spring name;
+	private Spring name;
+	private Spring name;
+	private Spring name;
+
+}
